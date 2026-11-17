@@ -1,0 +1,4020 @@
+{
+  "schema_version": 2,
+  "sources": {
+    "legacy-table": {
+      "reference": "git:4b153dcba98785c936de735bdd91bf57a96be8ed:src/lib.rs",
+      "description": "Names retained from the original project table; original per-name references were not recorded."
+    },
+    "wiktionary-he": {
+      "reference": "https://en.wiktionary.org/wiki/עברית",
+      "description": "Hebrew entry with niqqud."
+    },
+    "wiktionary-ar": {
+      "reference": "https://en.wiktionary.org/wiki/عربية",
+      "description": "Arabic language noun; definite form without a case ending, with taškīl."
+    },
+    "wiktionary-la": {
+      "reference": "https://en.wiktionary.org/wiki/Latinus",
+      "description": "Latin adjective declension, feminine nominative singular, with vowel-length macron."
+    },
+    "wiktionary-ru": {
+      "reference": "https://en.wiktionary.org/wiki/русский",
+      "description": "Russian language noun with stress accent."
+    },
+    "cldr48-af": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/af.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"af\"], explicit self-name in the af locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-agq": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/agq.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"agq\"], explicit self-name in the agq locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ak": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ak.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ak\"], explicit self-name in the ak locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-am": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/am.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"am\"], explicit self-name in the am locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-an": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/an.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"an\"], explicit self-name in the an locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ann": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ann.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ann\"], explicit self-name in the ann locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-apc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/apc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"apc\"], explicit self-name in the apc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-arn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/arn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"arn\"], explicit self-name in the arn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-as": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/as.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"as\"], explicit self-name in the as locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-asa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/asa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"asa\"], explicit self-name in the asa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ast": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ast.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ast\"], explicit self-name in the ast locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-az": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/az.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"az\"], explicit self-name in the az locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ba": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ba.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ba\"], explicit self-name in the ba locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bal": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bal.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bal\"], explicit self-name in the bal locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bas": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bas.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bas\"], explicit self-name in the bas locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-be": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/be.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"be\"], explicit self-name in the be locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bem": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bem.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bem\"], explicit self-name in the bem locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bew": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bew.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bew\"], explicit self-name in the bew locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bez": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bez.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bez\"], explicit self-name in the bez locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bg\"], explicit self-name in the bg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bgc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bgc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bgc\"], explicit self-name in the bgc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bgn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bgn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bgn\"], explicit self-name in the bgn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bho": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bho.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bho\"], explicit self-name in the bho locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-blo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/blo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"blo\"], explicit self-name in the blo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-blt": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/blt.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"blt\"], explicit self-name in the blt locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bm": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bm.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bm\"], explicit self-name in the bm locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bn\"], explicit self-name in the bn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bo\"], explicit self-name in the bo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bqi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bqi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bqi\"], explicit self-name in the bqi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-br": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/br.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"br\"], explicit self-name in the br locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-brx": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/brx.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"brx\"], explicit self-name in the brx locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bs": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bs.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bs\"], explicit self-name in the bs locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bss": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bss.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bss\"], explicit self-name in the bss locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-bua": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/bua.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"bua\"], explicit self-name in the bua locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-byn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/byn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"byn\"], explicit self-name in the byn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ca": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ca.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ca\"], explicit self-name in the ca locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cad": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cad.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cad\"], explicit self-name in the cad locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cch": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cch.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cch\"], explicit self-name in the cch locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ccp": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ccp.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ccp\"], explicit self-name in the ccp locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ce": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ce.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ce\"], explicit self-name in the ce locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ceb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ceb.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ceb\"], explicit self-name in the ceb locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cgg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cgg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cgg\"], explicit self-name in the cgg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cho": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cho.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cho\"], explicit self-name in the cho locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-chr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/chr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"chr\"], explicit self-name in the chr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cic": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cic.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cic\"], explicit self-name in the cic locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ckb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ckb.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ckb\"], explicit self-name in the ckb locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-co": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/co.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"co\"], explicit self-name in the co locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cs": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cs.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cs\"], explicit self-name in the cs locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-csw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/csw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"csw\"], explicit self-name in the csw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cv\"], explicit self-name in the cv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-cy": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cy.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"cy\"], explicit self-name in the cy locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-da": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/da.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"da\"], explicit self-name in the da locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-dav": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/dav.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"dav\"], explicit self-name in the dav locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-de": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/de.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"de\"], explicit self-name in the de locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-dje": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/dje.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"dje\"], explicit self-name in the dje locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-doi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/doi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"doi\"], explicit self-name in the doi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-dsb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/dsb.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"dsb\"], explicit self-name in the dsb locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-dua": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/dua.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"dua\"], explicit self-name in the dua locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-dyo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/dyo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"dyo\"], explicit self-name in the dyo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-dz": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/dz.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"dz\"], explicit self-name in the dz locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ebu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ebu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ebu\"], explicit self-name in the ebu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ee": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ee.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ee\"], explicit self-name in the ee locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-el": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/el.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"el\"], explicit self-name in the el locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-en": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/en.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"en\"], explicit self-name in the en locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-eo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/eo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"eo\"], explicit self-name in the eo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-es": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/es.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"es\"], explicit self-name in the es locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-et": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/et.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"et\"], explicit self-name in the et locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-eu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/eu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"eu\"], explicit self-name in the eu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ewo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ewo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ewo\"], explicit self-name in the ewo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fa\"], explicit self-name in the fa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ff": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ff.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ff\"], explicit self-name in the ff locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fi\"], explicit self-name in the fi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fil": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fil.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fil\"], explicit self-name in the fil locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fo\"], explicit self-name in the fo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fr\"], explicit self-name in the fr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-frr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/frr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"frr\"], explicit self-name in the frr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fur": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fur.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fur\"], explicit self-name in the fur locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-fy": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/fy.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"fy\"], explicit self-name in the fy locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ga": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ga.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ga\"], explicit self-name in the ga locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-gaa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gaa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"gaa\"], explicit self-name in the gaa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-gd": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gd.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"gd\"], explicit self-name in the gd locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-gl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"gl\"], explicit self-name in the gl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-gsw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gsw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"gsw\"], explicit self-name in the gsw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-gu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"gu\"], explicit self-name in the gu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-guz": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/guz.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"guz\"], explicit self-name in the guz locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-gv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"gv\"], explicit self-name in the gv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ha": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ha.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ha\"], explicit self-name in the ha locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-haw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/haw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"haw\"], explicit self-name in the haw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-hi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/hi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"hi\"], explicit self-name in the hi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-hnj": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/hnj.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"hnj\"], explicit self-name in the hnj locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-hr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/hr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"hr\"], explicit self-name in the hr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-hsb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/hsb.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"hsb\"], explicit self-name in the hsb locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-hu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/hu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"hu\"], explicit self-name in the hu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-hy": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/hy.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"hy\"], explicit self-name in the hy locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ia": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ia.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ia\"], explicit self-name in the ia locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-id": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/id.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"id\"], explicit self-name in the id locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ie": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ie.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ie\"], explicit self-name in the ie locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ig": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ig.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ig\"], explicit self-name in the ig locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ii": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ii.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ii\"], explicit self-name in the ii locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-io": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/io.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"io\"], explicit self-name in the io locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-is": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/is.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"is\"], explicit self-name in the is locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-it": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/it.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"it\"], explicit self-name in the it locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-iu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/iu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"iu\"], explicit self-name in the iu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ja": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ja.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ja\"], explicit self-name in the ja locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-jbo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/jbo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"jbo\"], explicit self-name in the jbo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-jgo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/jgo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"jgo\"], explicit self-name in the jgo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-jmc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/jmc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"jmc\"], explicit self-name in the jmc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-jv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/jv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"jv\"], explicit self-name in the jv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ka": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ka.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ka\"], explicit self-name in the ka locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kaa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kaa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kaa\"], explicit self-name in the kaa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kab": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kab.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kab\"], explicit self-name in the kab locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kaj": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kaj.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kaj\"], explicit self-name in the kaj locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kam": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kam.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kam\"], explicit self-name in the kam locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kcg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kcg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kcg\"], explicit self-name in the kcg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kde": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kde.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kde\"], explicit self-name in the kde locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kea": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kea.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kea\"], explicit self-name in the kea locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kek": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kek.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kek\"], explicit self-name in the kek locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ken": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ken.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ken\"], explicit self-name in the ken locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kgp": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kgp.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kgp\"], explicit self-name in the kgp locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-khq": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/khq.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"khq\"], explicit self-name in the khq locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ki": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ki.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ki\"], explicit self-name in the ki locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kk": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kk.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kk\"], explicit self-name in the kk locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kkj": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kkj.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kkj\"], explicit self-name in the kkj locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kl\"], explicit self-name in the kl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kln": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kln.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kln\"], explicit self-name in the kln locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-km": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/km.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"km\"], explicit self-name in the km locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kn\"], explicit self-name in the kn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ko": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ko.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ko\"], explicit self-name in the ko locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kok": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kok.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kok\"], explicit self-name in the kok locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kpe": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kpe.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kpe\"], explicit self-name in the kpe locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ks": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ks.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ks\"], explicit self-name in the ks locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ksb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ksb.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ksb\"], explicit self-name in the ksb locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ksf": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ksf.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ksf\"], explicit self-name in the ksf locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ksh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ksh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ksh\"], explicit self-name in the ksh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kw\"], explicit self-name in the kw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-kxv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/kxv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"kxv\"], explicit self-name in the kxv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ky": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ky.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ky\"], explicit self-name in the ky locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lag": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lag.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lag\"], explicit self-name in the lag locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lb.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lb\"], explicit self-name in the lb locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lg\"], explicit self-name in the lg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lij": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lij.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lij\"], explicit self-name in the lij locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lkt": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lkt.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lkt\"], explicit self-name in the lkt locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lld": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lld.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lld\"], explicit self-name in the lld locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lmo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lmo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lmo\"], explicit self-name in the lmo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ln": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ln.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ln\"], explicit self-name in the ln locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lo\"], explicit self-name in the lo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lrc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lrc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lrc\"], explicit self-name in the lrc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lt": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lt.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lt\"], explicit self-name in the lt locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ltg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ltg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ltg\"], explicit self-name in the ltg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lu\"], explicit self-name in the lu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-luo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/luo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"luo\"], explicit self-name in the luo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-luy": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/luy.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"luy\"], explicit self-name in the luy locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-lv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/lv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"lv\"], explicit self-name in the lv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mai": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mai.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mai\"], explicit self-name in the mai locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mas": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mas.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mas\"], explicit self-name in the mas locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mdf": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mdf.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mdf\"], explicit self-name in the mdf locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mer": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mer.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mer\"], explicit self-name in the mer locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mfe": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mfe.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mfe\"], explicit self-name in the mfe locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mg\"], explicit self-name in the mg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mgh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mgh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mgh\"], explicit self-name in the mgh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mgo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mgo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mgo\"], explicit self-name in the mgo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mi\"], explicit self-name in the mi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mic": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mic.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mic\"], explicit self-name in the mic locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mk": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mk.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mk\"], explicit self-name in the mk locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ml": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ml.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ml\"], explicit self-name in the ml locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mn\"], explicit self-name in the mn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mni": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mni.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mni\"], explicit self-name in the mni locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-moh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/moh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"moh\"], explicit self-name in the moh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mr\"], explicit self-name in the mr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ms": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ms.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ms\"], explicit self-name in the ms locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mt": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mt.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mt\"], explicit self-name in the mt locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mua": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mua.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mua\"], explicit self-name in the mua locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mus": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mus.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mus\"], explicit self-name in the mus locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-my": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/my.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"my\"], explicit self-name in the my locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-myv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/myv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"myv\"], explicit self-name in the myv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-mzn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/mzn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"mzn\"], explicit self-name in the mzn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-naq": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/naq.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"naq\"], explicit self-name in the naq locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nd": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nd.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nd\"], explicit self-name in the nd locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nds": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nds.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nds\"], explicit self-name in the nds locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ne": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ne.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ne\"], explicit self-name in the ne locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nl\"], explicit self-name in the nl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nmg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nmg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nmg\"], explicit self-name in the nmg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nnh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nnh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nnh\"], explicit self-name in the nnh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-no": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/no.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"no\"], explicit self-name in the no locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nqo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nqo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nqo\"], explicit self-name in the nqo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nr\"], explicit self-name in the nr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nso": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nso.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nso\"], explicit self-name in the nso locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nus": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nus.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nus\"], explicit self-name in the nus locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-nyn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nyn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"nyn\"], explicit self-name in the nyn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-oc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/oc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"oc\"], explicit self-name in the oc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-oka": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/oka.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"oka\"], explicit self-name in the oka locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-om": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/om.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"om\"], explicit self-name in the om locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-or": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/or.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"or\"], explicit self-name in the or locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-os": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/os.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"os\"], explicit self-name in the os locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-osa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/osa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"osa\"], explicit self-name in the osa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pa\"], explicit self-name in the pa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pap": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pap.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pap\"], explicit self-name in the pap locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pcm": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pcm.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pcm\"], explicit self-name in the pcm locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pis": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pis.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pis\"], explicit self-name in the pis locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pl\"], explicit self-name in the pl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pms": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pms.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pms\"], explicit self-name in the pms locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-prg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/prg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"prg\"], explicit self-name in the prg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ps": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ps.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ps\"], explicit self-name in the ps locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-pt": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/pt.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"pt\"], explicit self-name in the pt locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-qu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/qu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"qu\"], explicit self-name in the qu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-quc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/quc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"quc\"], explicit self-name in the quc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-raj": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/raj.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"raj\"], explicit self-name in the raj locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rhg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rhg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rhg\"], explicit self-name in the rhg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rif": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rif.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rif\"], explicit self-name in the rif locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rm": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rm.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rm\"], explicit self-name in the rm locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rn\"], explicit self-name in the rn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ro": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ro.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ro\"], explicit self-name in the ro locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rof": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rof.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rof\"], explicit self-name in the rof locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rw\"], explicit self-name in the rw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-rwk": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/rwk.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"rwk\"], explicit self-name in the rwk locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sa\"], explicit self-name in the sa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sah": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sah.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sah\"], explicit self-name in the sah locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-saq": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/saq.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"saq\"], explicit self-name in the saq locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sat": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sat.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sat\"], explicit self-name in the sat locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sbp": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sbp.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sbp\"], explicit self-name in the sbp locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sc": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sc.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sc\"], explicit self-name in the sc locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-scn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/scn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"scn\"], explicit self-name in the scn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sd": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sd.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sd\"], explicit self-name in the sd locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sdh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sdh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sdh\"], explicit self-name in the sdh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-se": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/se.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"se\"], explicit self-name in the se locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-seh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/seh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"seh\"], explicit self-name in the seh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ses": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ses.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ses\"], explicit self-name in the ses locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sg\"], explicit self-name in the sg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-shi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/shi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"shi\"], explicit self-name in the shi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-shn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/shn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"shn\"], explicit self-name in the shn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-si": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/si.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"si\"], explicit self-name in the si locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sid": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sid.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sid\"], explicit self-name in the sid locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sk": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sk.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sk\"], explicit self-name in the sk locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-skr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/skr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"skr\"], explicit self-name in the skr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sl\"], explicit self-name in the sl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sma": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sma.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sma\"], explicit self-name in the sma locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-smj": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/smj.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"smj\"], explicit self-name in the smj locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-smn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/smn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"smn\"], explicit self-name in the smn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sms": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sms.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sms\"], explicit self-name in the sms locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sn\"], explicit self-name in the sn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-so": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/so.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"so\"], explicit self-name in the so locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sq": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sq.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sq\"], explicit self-name in the sq locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sr\"], explicit self-name in the sr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ss": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ss.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ss\"], explicit self-name in the ss locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ssy": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ssy.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ssy\"], explicit self-name in the ssy locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-st": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/st.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"st\"], explicit self-name in the st locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-su": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/su.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"su\"], explicit self-name in the su locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sv\"], explicit self-name in the sv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-sw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/sw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"sw\"], explicit self-name in the sw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-syr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/syr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"syr\"], explicit self-name in the syr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-szl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/szl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"szl\"], explicit self-name in the szl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ta": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ta.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ta\"], explicit self-name in the ta locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-te": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/te.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"te\"], explicit self-name in the te locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-teo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/teo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"teo\"], explicit self-name in the teo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tg": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tg.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tg\"], explicit self-name in the tg locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-th": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/th.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"th\"], explicit self-name in the th locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ti": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ti.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ti\"], explicit self-name in the ti locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tig": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tig.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tig\"], explicit self-name in the tig locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tk": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tk.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tk\"], explicit self-name in the tk locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tn.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tn\"], explicit self-name in the tn locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-to": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/to.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"to\"], explicit self-name in the to locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tok": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tok.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tok\"], explicit self-name in the tok locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tpi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tpi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tpi\"], explicit self-name in the tpi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tr\"], explicit self-name in the tr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-trv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/trv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"trv\"], explicit self-name in the trv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-trw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/trw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"trw\"], explicit self-name in the trw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ts": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ts.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ts\"], explicit self-name in the ts locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tt": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tt.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tt\"], explicit self-name in the tt locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-twq": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/twq.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"twq\"], explicit self-name in the twq locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tyv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tyv.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tyv\"], explicit self-name in the tyv locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-tzm": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/tzm.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"tzm\"], explicit self-name in the tzm locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ug": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ug.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ug\"], explicit self-name in the ug locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-uk": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/uk.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"uk\"], explicit self-name in the uk locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ur": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ur.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ur\"], explicit self-name in the ur locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-uz": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/uz.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"uz\"], explicit self-name in the uz locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-vai": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/vai.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"vai\"], explicit self-name in the vai locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-ve": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ve.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"ve\"], explicit self-name in the ve locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-vec": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/vec.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"vec\"], explicit self-name in the vec locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-vi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/vi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"vi\"], explicit self-name in the vi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-vmw": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/vmw.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"vmw\"], explicit self-name in the vmw locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-vo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/vo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"vo\"], explicit self-name in the vo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-vun": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/vun.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"vun\"], explicit self-name in the vun locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-wa": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/wa.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"wa\"], explicit self-name in the wa locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-wae": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/wae.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"wae\"], explicit self-name in the wae locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-wal": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/wal.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"wal\"], explicit self-name in the wal locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-wbp": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/wbp.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"wbp\"], explicit self-name in the wbp locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-wo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/wo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"wo\"], explicit self-name in the wo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-xh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/xh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"xh\"], explicit self-name in the xh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-xnr": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/xnr.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"xnr\"], explicit self-name in the xnr locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-xog": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/xog.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"xog\"], explicit self-name in the xog locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-yav": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/yav.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"yav\"], explicit self-name in the yav locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-yi": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/yi.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"yi\"], explicit self-name in the yi locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-yo": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/yo.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"yo\"], explicit self-name in the yo locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-yrl": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/yrl.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"yrl\"], explicit self-name in the yrl locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-yue": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/yue.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"yue\"], explicit self-name in the yue locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-za": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/za.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"za\"], explicit self-name in the za locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-zgh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zgh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"zgh\"], explicit self-name in the zgh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-zh": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zh.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"zh\"], explicit self-name in the zh locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "cldr48-zu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zu.xml",
+      "description": "Unicode CLDR 48, localeDisplayNames/languages/language[@type=\"zu\"], explicit self-name in the zu locale. Source archive: https://unicode.org/Public/cldr/48/core.zip."
+    },
+    "wiktionary-be": {
+      "reference": "https://en.wiktionary.org/wiki/беларуская",
+      "description": "Belarusian language noun; acute marks stress."
+    },
+    "wiktionary-bg": {
+      "reference": "https://en.wiktionary.org/wiki/български",
+      "description": "Bulgarian language noun; acute marks stress."
+    },
+    "wiktionary-uk": {
+      "reference": "https://en.wiktionary.org/wiki/український",
+      "description": "Ukrainian feminine nominative singular and language-name usage; acute marks stress."
+    },
+    "wiktionary-mk": {
+      "reference": "https://en.wiktionary.org/wiki/македонски",
+      "description": "Macedonian section, standard pronunciation. Acute marks stress; do not use the Bulgarian headword or common nonstandard Macedonian stress."
+    },
+    "wiktionary-ur": {
+      "reference": "https://en.wiktionary.org/wiki/اردو",
+      "description": "Urdu section, language proper noun with short-vowel marks and sukūn."
+    },
+    "wiktionary-ku": {
+      "reference": "https://en.wiktionary.org/wiki/kurdî",
+      "description": "Kurdish language name. Remove the bracketed dialect annotation from the legacy display label."
+    },
+    "wiktionary-ang": {
+      "reference": "https://en.wiktionary.org/wiki/Englisc",
+      "description": "Old English proper noun Englisċ; Ænglisċ is explicitly listed as an alternative. Preserve the existing choice and palatalization dot."
+    },
+    "cldr48-nb": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/no.xml",
+      "description": "Unicode CLDR 48, Norwegian locale, language[@type=\"nb\"]. Explicit native name for the Norwegian written standard."
+    },
+    "cldr48-nn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/no.xml",
+      "description": "Unicode CLDR 48, Norwegian locale, language[@type=\"nn\"]. Explicit native name for the Norwegian written standard."
+    },
+    "cldr48-ab": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ab.xml",
+      "description": "Unicode CLDR 48 explicit self-name Аԥсшәа; retain the existing project capitalization."
+    },
+    "cldr48-gn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/gn.xml",
+      "description": "Unicode CLDR 48 explicit self-name avañe’ẽ; retain the existing project capitalization."
+    },
+    "cldr48-ht": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/ht.xml",
+      "description": "Unicode CLDR 48 explicit self-name Kreyòl Ayisyen; retain the existing project capitalization."
+    },
+    "cldr48-nv": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/nv.xml",
+      "description": "Unicode CLDR 48 explicit self-name Diné Bizaad; retain the existing project capitalization."
+    },
+    "wiktionary-lt": {
+      "reference": "https://en.wiktionary.org/wiki/lietuvių",
+      "description": "Lithuanian genitive plural, used in the language name; dictionary stress mark retained."
+    },
+    "wiktionary-ny": {
+      "reference": "https://en.wiktionary.org/wiki/Chichewa",
+      "description": "Chichewa section, native proper noun with ŵ and high-tone acute; preserve the existing Chewa naming choice rather than substitute Nyanja."
+    },
+    "wiktionary-dv": {
+      "reference": "https://en.wiktionary.org/wiki/ދިވެހި",
+      "description": "Dhivehi proper noun; retain the existing short language name rather than expand it to the compound ending in bas."
+    },
+    "wiktionary-syr": {
+      "reference": "https://en.wiktionary.org/wiki/ܣܘܪܝܝܐ",
+      "description": "Classical Syriac section. Retain the unpointed Classical Syriac name; do not import the differently scoped Assyrian Neo-Aramaic vocalization."
+    },
+    "cldr48-gan": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zh_Hant.xml",
+      "description": "Unicode CLDR 48 Traditional Chinese locale, language[@type=\"gan\"]. Reference for the existing Chinese written label, not a claim about local spoken pronunciation."
+    },
+    "cldr48-hsn": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zh_Hant.xml",
+      "description": "Unicode CLDR 48 Traditional Chinese locale, language[@type=\"hsn\"]. Reference for the existing Chinese written label, not a claim about local spoken pronunciation."
+    },
+    "cldr48-nan": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zh_Hant.xml",
+      "description": "Unicode CLDR 48 Traditional Chinese locale, language[@type=\"nan\"]. Reference for the existing Chinese written label, not a claim about local spoken pronunciation."
+    },
+    "cldr48-wuu": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/zh_Hant.xml",
+      "description": "Unicode CLDR 48 Traditional Chinese locale, language[@type=\"wuu\"]. Reference for the existing Chinese written label, not a claim about local spoken pronunciation."
+    },
+    "cldr48-cop": {
+      "reference": "https://github.com/unicode-org/cldr/blob/release-48/common/main/cop.xml",
+      "description": "Unicode CLDR 48 explicit Coptic self-name in the Coptic locale. Bohairic form selected by personal preference."
+    },
+    "wiktionary-bs": {
+      "reference": "https://en.wiktionary.org/wiki/bosanski",
+      "description": "Language noun with short rising pitch accent and post-accentual vowel length."
+    },
+    "wiktionary-hr": {
+      "reference": "https://en.wiktionary.org/wiki/hrvatski",
+      "description": "Language noun with short rising pitch accent on syllabic r and post-accentual vowel lengths."
+    },
+    "wiktionary-sr": {
+      "reference": "https://en.wiktionary.org/wiki/srpski",
+      "description": "Cyrillic spelling of the language noun sȑpskī; short falling pitch accent on syllabic r and post-accentual vowel length. Preserve the existing Cyrillic script choice."
+    },
+    "wiktionary-sl": {
+      "reference": "https://en.wiktionary.org/wiki/slovenščina",
+      "description": "Slovene language noun with the dictionary headword’s tonal accent and close-e dot below; use the full headword rather than the non-tonal declension spelling."
+    },
+    "wiktionary-ppl": {
+      "reference": "https://en.wiktionary.org/wiki/nawat#Pipil",
+      "description": "Pipil language noun nāwat, with long initial ā. Retain the existing project capitalization Nāwat."
+    },
+    "wiktionary-nci": {
+      "reference": "https://en.wiktionary.org/wiki/nahuatlahtolli#Classical_Nahuatl",
+      "description": "Classical Nahuatl language noun nāhuatlahtōlli, with vowel-length macrons and h representing saltillo. The entry cites Karttunen (1983), An Analytical Dictionary of Nahuatl, p. 158; distinct from the Central Nahuatl section."
+    }
+  },
+  "languages": [
+    {
+      "code": "aa",
+      "endonym": "Qafar af",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ab",
+      "endonym": "аԥсшәа",
+      "sources": [
+        "cldr48-ab"
+      ]
+    },
+    {
+      "code": "af",
+      "endonym": "Afrikaans",
+      "sources": [
+        "cldr48-af"
+      ]
+    },
+    {
+      "code": "agq",
+      "endonym": "Aghem",
+      "sources": [
+        "cldr48-agq"
+      ]
+    },
+    {
+      "code": "ain",
+      "endonym": "アイヌ イタㇰ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ak",
+      "endonym": "Akan",
+      "sources": [
+        "cldr48-ak"
+      ]
+    },
+    {
+      "code": "akk",
+      "endonym": "𒀝𒂵𒌈",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ale",
+      "endonym": "Unangam Tunuu",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "am",
+      "endonym": "አማርኛ",
+      "sources": [
+        "cldr48-am"
+      ]
+    },
+    {
+      "code": "an",
+      "endonym": "aragonés",
+      "sources": [
+        "cldr48-an"
+      ]
+    },
+    {
+      "code": "ang",
+      "endonym": "Ænglisċ",
+      "sources": [
+        "wiktionary-ang"
+      ]
+    },
+    {
+      "code": "ann",
+      "endonym": "Obolo",
+      "sources": [
+        "cldr48-ann"
+      ]
+    },
+    {
+      "code": "apc",
+      "endonym": "العامية",
+      "sources": [
+        "cldr48-apc"
+      ]
+    },
+    {
+      "code": "ar",
+      "endonym": "الْعَرَبِيَّة",
+      "sources": [
+        "wiktionary-ar"
+      ]
+    },
+    {
+      "code": "arn",
+      "endonym": "Mapudungun",
+      "sources": [
+        "cldr48-arn"
+      ]
+    },
+    {
+      "code": "as",
+      "endonym": "অসমীয়া",
+      "sources": [
+        "cldr48-as"
+      ]
+    },
+    {
+      "code": "asa",
+      "endonym": "Kipare",
+      "sources": [
+        "cldr48-asa"
+      ]
+    },
+    {
+      "code": "ast",
+      "endonym": "asturianu",
+      "sources": [
+        "cldr48-ast"
+      ]
+    },
+    {
+      "code": "av",
+      "endonym": "авар мацӀ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ay",
+      "endonym": "Aymar aru",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "az",
+      "endonym": "azərbaycan",
+      "sources": [
+        "cldr48-az"
+      ]
+    },
+    {
+      "code": "ba",
+      "endonym": "башҡорт",
+      "sources": [
+        "cldr48-ba"
+      ]
+    },
+    {
+      "code": "bal",
+      "endonym": "بلۆچی",
+      "sources": [
+        "cldr48-bal"
+      ]
+    },
+    {
+      "code": "bas",
+      "endonym": "Ɓàsàa",
+      "sources": [
+        "cldr48-bas"
+      ]
+    },
+    {
+      "code": "be",
+      "endonym": "белару́ская",
+      "sources": [
+        "wiktionary-be"
+      ]
+    },
+    {
+      "code": "bem",
+      "endonym": "Ichibemba",
+      "sources": [
+        "cldr48-bem"
+      ]
+    },
+    {
+      "code": "bew",
+      "endonym": "Betawi",
+      "sources": [
+        "cldr48-bew"
+      ]
+    },
+    {
+      "code": "bez",
+      "endonym": "Hibena",
+      "sources": [
+        "cldr48-bez"
+      ]
+    },
+    {
+      "code": "bg",
+      "endonym": "бъ́лгарски",
+      "sources": [
+        "wiktionary-bg"
+      ]
+    },
+    {
+      "code": "bgc",
+      "endonym": "हरियाणवी",
+      "sources": [
+        "cldr48-bgc"
+      ]
+    },
+    {
+      "code": "bgn",
+      "endonym": "بلوچی (رخشانی)",
+      "sources": [
+        "cldr48-bgn"
+      ]
+    },
+    {
+      "code": "bho",
+      "endonym": "भोजपुरी",
+      "sources": [
+        "cldr48-bho"
+      ]
+    },
+    {
+      "code": "bi",
+      "endonym": "Bislama",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "blo",
+      "endonym": "anii kagɩja",
+      "sources": [
+        "cldr48-blo"
+      ]
+    },
+    {
+      "code": "blt",
+      "endonym": "ꪼꪕꪒꪾ",
+      "sources": [
+        "cldr48-blt"
+      ]
+    },
+    {
+      "code": "bm",
+      "endonym": "bamanakan",
+      "sources": [
+        "cldr48-bm"
+      ]
+    },
+    {
+      "code": "bn",
+      "endonym": "বাংলা",
+      "sources": [
+        "cldr48-bn"
+      ]
+    },
+    {
+      "code": "bo",
+      "endonym": "བོད་སྐད་",
+      "sources": [
+        "cldr48-bo"
+      ]
+    },
+    {
+      "code": "bqi",
+      "endonym": "لوری بختیاری",
+      "sources": [
+        "cldr48-bqi"
+      ]
+    },
+    {
+      "code": "br",
+      "endonym": "brezhoneg",
+      "sources": [
+        "cldr48-br"
+      ]
+    },
+    {
+      "code": "brx",
+      "endonym": "बर’",
+      "sources": [
+        "cldr48-brx"
+      ]
+    },
+    {
+      "code": "bs",
+      "endonym": "bòsanskī",
+      "sources": [
+        "wiktionary-bs",
+        "cldr48-bs"
+      ]
+    },
+    {
+      "code": "bss",
+      "endonym": "Akoose",
+      "sources": [
+        "cldr48-bss"
+      ]
+    },
+    {
+      "code": "bua",
+      "endonym": "буряад",
+      "sources": [
+        "cldr48-bua"
+      ]
+    },
+    {
+      "code": "byn",
+      "endonym": "ብሊን",
+      "sources": [
+        "cldr48-byn"
+      ]
+    },
+    {
+      "code": "ca",
+      "endonym": "català",
+      "sources": [
+        "cldr48-ca"
+      ]
+    },
+    {
+      "code": "cad",
+      "endonym": "Caddo",
+      "sources": [
+        "cldr48-cad"
+      ]
+    },
+    {
+      "code": "cch",
+      "endonym": "Atsam",
+      "sources": [
+        "cldr48-cch"
+      ]
+    },
+    {
+      "code": "ccp",
+      "endonym": "𑄌𑄋𑄴𑄟𑄳𑄦",
+      "sources": [
+        "cldr48-ccp"
+      ]
+    },
+    {
+      "code": "cdo",
+      "endonym": "閩東語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ce",
+      "endonym": "нохчийн",
+      "sources": [
+        "cldr48-ce"
+      ]
+    },
+    {
+      "code": "ceb",
+      "endonym": "Cebuano",
+      "sources": [
+        "cldr48-ceb"
+      ]
+    },
+    {
+      "code": "cgg",
+      "endonym": "Rukiga",
+      "sources": [
+        "cldr48-cgg"
+      ]
+    },
+    {
+      "code": "ch",
+      "endonym": "Chamoru",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "cho",
+      "endonym": "Chahta",
+      "sources": [
+        "cldr48-cho"
+      ]
+    },
+    {
+      "code": "chr",
+      "endonym": "ᏣᎳᎩ",
+      "sources": [
+        "cldr48-chr"
+      ]
+    },
+    {
+      "code": "cic",
+      "endonym": "Chikashshanompaʼ",
+      "sources": [
+        "cldr48-cic"
+      ]
+    },
+    {
+      "code": "cjy",
+      "endonym": "晉語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ckb",
+      "endonym": "کوردیی ناوەندی",
+      "sources": [
+        "cldr48-ckb"
+      ]
+    },
+    {
+      "code": "cnp",
+      "endonym": "桂北平話",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "co",
+      "endonym": "corsu",
+      "sources": [
+        "cldr48-co"
+      ]
+    },
+    {
+      "code": "cop",
+      "endonym": "ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ",
+      "sources": [
+        "cldr48-cop"
+      ]
+    },
+    {
+      "code": "cpx",
+      "endonym": "莆仙語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "cr",
+      "endonym": "ᓀᐦᐃᔭᐍᐏᐣ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "cs",
+      "endonym": "čeština",
+      "sources": [
+        "cldr48-cs"
+      ]
+    },
+    {
+      "code": "csp",
+      "endonym": "桂南平話",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "csw",
+      "endonym": "ᓀᐦᐃᓇᐍᐏᐣ",
+      "sources": [
+        "cldr48-csw"
+      ]
+    },
+    {
+      "code": "cu",
+      "endonym": "словѣньскъ ѩзыкъ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "cv",
+      "endonym": "чӑваш чӗлхи",
+      "sources": [
+        "cldr48-cv"
+      ]
+    },
+    {
+      "code": "cy",
+      "endonym": "Cymraeg",
+      "sources": [
+        "cldr48-cy"
+      ]
+    },
+    {
+      "code": "czh",
+      "endonym": "徽語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "czo",
+      "endonym": "閩中語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "da",
+      "endonym": "dansk",
+      "sources": [
+        "cldr48-da"
+      ]
+    },
+    {
+      "code": "dav",
+      "endonym": "Kitaita",
+      "sources": [
+        "cldr48-dav"
+      ]
+    },
+    {
+      "code": "de",
+      "endonym": "Deutsch",
+      "sources": [
+        "cldr48-de"
+      ]
+    },
+    {
+      "code": "dje",
+      "endonym": "Zarmaciine",
+      "sources": [
+        "cldr48-dje"
+      ]
+    },
+    {
+      "code": "dng",
+      "endonym": "Хуэйзў йүян",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "doi",
+      "endonym": "डोगरी",
+      "sources": [
+        "cldr48-doi"
+      ]
+    },
+    {
+      "code": "dsb",
+      "endonym": "dolnoserbšćina",
+      "sources": [
+        "cldr48-dsb"
+      ]
+    },
+    {
+      "code": "dua",
+      "endonym": "duálá",
+      "sources": [
+        "cldr48-dua"
+      ]
+    },
+    {
+      "code": "dv",
+      "endonym": "ދިވެހި",
+      "sources": [
+        "wiktionary-dv"
+      ]
+    },
+    {
+      "code": "dyo",
+      "endonym": "joola",
+      "sources": [
+        "cldr48-dyo"
+      ]
+    },
+    {
+      "code": "dz",
+      "endonym": "རྫོང་ཁ",
+      "sources": [
+        "cldr48-dz"
+      ]
+    },
+    {
+      "code": "ebu",
+      "endonym": "Kĩembu",
+      "sources": [
+        "cldr48-ebu"
+      ]
+    },
+    {
+      "code": "ee",
+      "endonym": "eʋegbe",
+      "sources": [
+        "cldr48-ee"
+      ]
+    },
+    {
+      "code": "egy",
+      "endonym": "𓂋𓏺𓈖 𓆎𓅓𓏏𓊖",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "el",
+      "endonym": "Ελληνικά",
+      "sources": [
+        "cldr48-el"
+      ]
+    },
+    {
+      "code": "en",
+      "endonym": "English",
+      "sources": [
+        "cldr48-en"
+      ]
+    },
+    {
+      "code": "eo",
+      "endonym": "Esperanto",
+      "sources": [
+        "cldr48-eo"
+      ]
+    },
+    {
+      "code": "es",
+      "endonym": "español",
+      "sources": [
+        "cldr48-es"
+      ]
+    },
+    {
+      "code": "et",
+      "endonym": "eesti",
+      "sources": [
+        "cldr48-et"
+      ]
+    },
+    {
+      "code": "eu",
+      "endonym": "euskara",
+      "sources": [
+        "cldr48-eu"
+      ]
+    },
+    {
+      "code": "ewo",
+      "endonym": "ewondo",
+      "sources": [
+        "cldr48-ewo"
+      ]
+    },
+    {
+      "code": "fa",
+      "endonym": "فارسی",
+      "sources": [
+        "cldr48-fa"
+      ]
+    },
+    {
+      "code": "ff",
+      "endonym": "Pulaar",
+      "sources": [
+        "cldr48-ff"
+      ]
+    },
+    {
+      "code": "fi",
+      "endonym": "suomi",
+      "sources": [
+        "cldr48-fi"
+      ]
+    },
+    {
+      "code": "fil",
+      "endonym": "Filipino",
+      "sources": [
+        "cldr48-fil"
+      ]
+    },
+    {
+      "code": "fj",
+      "endonym": "vosa Vakaviti",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "fo",
+      "endonym": "føroyskt",
+      "sources": [
+        "cldr48-fo"
+      ]
+    },
+    {
+      "code": "fr",
+      "endonym": "français",
+      "sources": [
+        "cldr48-fr"
+      ]
+    },
+    {
+      "code": "frr",
+      "endonym": "Nordfriisk",
+      "sources": [
+        "cldr48-frr"
+      ]
+    },
+    {
+      "code": "fur",
+      "endonym": "furlan",
+      "sources": [
+        "cldr48-fur"
+      ]
+    },
+    {
+      "code": "fy",
+      "endonym": "Frysk",
+      "sources": [
+        "cldr48-fy"
+      ]
+    },
+    {
+      "code": "ga",
+      "endonym": "Gaeilge",
+      "sources": [
+        "cldr48-ga"
+      ]
+    },
+    {
+      "code": "gaa",
+      "endonym": "Gã",
+      "sources": [
+        "cldr48-gaa"
+      ]
+    },
+    {
+      "code": "gan",
+      "endonym": "贛語",
+      "sources": [
+        "cldr48-gan"
+      ]
+    },
+    {
+      "code": "gd",
+      "endonym": "Gàidhlig",
+      "sources": [
+        "cldr48-gd"
+      ]
+    },
+    {
+      "code": "gez",
+      "endonym": "ግዕዝ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "gl",
+      "endonym": "galego",
+      "sources": [
+        "cldr48-gl"
+      ]
+    },
+    {
+      "code": "gn",
+      "endonym": "Avañe’ẽ",
+      "sources": [
+        "cldr48-gn"
+      ]
+    },
+    {
+      "code": "grc",
+      "endonym": "Ἑλληνική ἀρχαία",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "gsw",
+      "endonym": "Schwiizertüütsch",
+      "sources": [
+        "cldr48-gsw"
+      ]
+    },
+    {
+      "code": "gu",
+      "endonym": "ગુજરાતી",
+      "sources": [
+        "cldr48-gu"
+      ]
+    },
+    {
+      "code": "guz",
+      "endonym": "Ekegusii",
+      "sources": [
+        "cldr48-guz"
+      ]
+    },
+    {
+      "code": "gv",
+      "endonym": "Gaelg",
+      "sources": [
+        "cldr48-gv"
+      ]
+    },
+    {
+      "code": "ha",
+      "endonym": "Hausa",
+      "sources": [
+        "cldr48-ha"
+      ]
+    },
+    {
+      "code": "hak",
+      "endonym": "客家語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "haw",
+      "endonym": "ʻŌlelo Hawaiʻi",
+      "sources": [
+        "cldr48-haw"
+      ]
+    },
+    {
+      "code": "he",
+      "endonym": "עִבְרִית",
+      "sources": [
+        "wiktionary-he"
+      ]
+    },
+    {
+      "code": "hi",
+      "endonym": "हिन्दी",
+      "sources": [
+        "cldr48-hi"
+      ]
+    },
+    {
+      "code": "hit",
+      "endonym": "𒉈𒅆𒇷",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "hnj",
+      "endonym": "𞄀𞄄𞄰𞄩𞄍𞄜𞄰",
+      "sources": [
+        "cldr48-hnj"
+      ]
+    },
+    {
+      "code": "hnm",
+      "endonym": "海南話",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ho",
+      "endonym": "Hiri Motu",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "hr",
+      "endonym": "hr̀vātskī",
+      "sources": [
+        "wiktionary-hr",
+        "cldr48-hr"
+      ]
+    },
+    {
+      "code": "hsb",
+      "endonym": "hornjoserbšćina",
+      "sources": [
+        "cldr48-hsb"
+      ]
+    },
+    {
+      "code": "hsn",
+      "endonym": "湘語",
+      "sources": [
+        "cldr48-hsn"
+      ]
+    },
+    {
+      "code": "ht",
+      "endonym": "kreyòl ayisyen",
+      "sources": [
+        "cldr48-ht"
+      ]
+    },
+    {
+      "code": "hu",
+      "endonym": "magyar",
+      "sources": [
+        "cldr48-hu"
+      ]
+    },
+    {
+      "code": "hy",
+      "endonym": "հայերեն",
+      "sources": [
+        "cldr48-hy"
+      ]
+    },
+    {
+      "code": "hz",
+      "endonym": "Otjiherero",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ia",
+      "endonym": "interlingua",
+      "sources": [
+        "cldr48-ia"
+      ]
+    },
+    {
+      "code": "id",
+      "endonym": "Indonesia",
+      "sources": [
+        "cldr48-id"
+      ]
+    },
+    {
+      "code": "ie",
+      "endonym": "Interlingue",
+      "sources": [
+        "cldr48-ie"
+      ]
+    },
+    {
+      "code": "ig",
+      "endonym": "Igbo",
+      "sources": [
+        "cldr48-ig"
+      ]
+    },
+    {
+      "code": "ii",
+      "endonym": "ꆈꌠꉙ",
+      "sources": [
+        "cldr48-ii"
+      ]
+    },
+    {
+      "code": "ik",
+      "endonym": "Iñupiatun",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "io",
+      "endonym": "Ido",
+      "sources": [
+        "cldr48-io"
+      ]
+    },
+    {
+      "code": "is",
+      "endonym": "íslenska",
+      "sources": [
+        "cldr48-is"
+      ]
+    },
+    {
+      "code": "it",
+      "endonym": "italiano",
+      "sources": [
+        "cldr48-it"
+      ]
+    },
+    {
+      "code": "iu",
+      "endonym": "ᐃᓄᒃᑎᑐᑦ",
+      "sources": [
+        "cldr48-iu"
+      ]
+    },
+    {
+      "code": "ja",
+      "endonym": "日本語",
+      "sources": [
+        "cldr48-ja"
+      ]
+    },
+    {
+      "code": "jbo",
+      "endonym": "la .lojban.",
+      "sources": [
+        "cldr48-jbo"
+      ]
+    },
+    {
+      "code": "jgo",
+      "endonym": "Ndaꞌa",
+      "sources": [
+        "cldr48-jgo"
+      ]
+    },
+    {
+      "code": "jje",
+      "endonym": "제줏말",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "jmc",
+      "endonym": "Kimachame",
+      "sources": [
+        "cldr48-jmc"
+      ]
+    },
+    {
+      "code": "jrb",
+      "endonym": "ערבית יהודית",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "jv",
+      "endonym": "Jawa",
+      "sources": [
+        "cldr48-jv"
+      ]
+    },
+    {
+      "code": "ka",
+      "endonym": "ქართული",
+      "sources": [
+        "cldr48-ka"
+      ]
+    },
+    {
+      "code": "kaa",
+      "endonym": "қарақалпақша",
+      "sources": [
+        "cldr48-kaa"
+      ]
+    },
+    {
+      "code": "kab",
+      "endonym": "Taqbaylit",
+      "sources": [
+        "cldr48-kab"
+      ]
+    },
+    {
+      "code": "kaj",
+      "endonym": "Kaje",
+      "sources": [
+        "cldr48-kaj"
+      ]
+    },
+    {
+      "code": "kam",
+      "endonym": "Kikamba",
+      "sources": [
+        "cldr48-kam"
+      ]
+    },
+    {
+      "code": "kcg",
+      "endonym": "Katab",
+      "sources": [
+        "cldr48-kcg"
+      ]
+    },
+    {
+      "code": "kde",
+      "endonym": "Chimakonde",
+      "sources": [
+        "cldr48-kde"
+      ]
+    },
+    {
+      "code": "kea",
+      "endonym": "kabuverdianu",
+      "sources": [
+        "cldr48-kea"
+      ]
+    },
+    {
+      "code": "kek",
+      "endonym": "Qʼeqchiʼ",
+      "sources": [
+        "cldr48-kek"
+      ]
+    },
+    {
+      "code": "ken",
+      "endonym": "Kɛnyaŋ",
+      "sources": [
+        "cldr48-ken"
+      ]
+    },
+    {
+      "code": "kg",
+      "endonym": "Kikongo",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "kgp",
+      "endonym": "kanhgág",
+      "sources": [
+        "cldr48-kgp"
+      ]
+    },
+    {
+      "code": "khq",
+      "endonym": "Koyra ciini",
+      "sources": [
+        "cldr48-khq"
+      ]
+    },
+    {
+      "code": "ki",
+      "endonym": "Gikuyu",
+      "sources": [
+        "cldr48-ki"
+      ]
+    },
+    {
+      "code": "kj",
+      "endonym": "Oshikwanyama",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "kk",
+      "endonym": "қазақ тілі",
+      "sources": [
+        "cldr48-kk"
+      ]
+    },
+    {
+      "code": "kkj",
+      "endonym": "kakɔ",
+      "sources": [
+        "cldr48-kkj"
+      ]
+    },
+    {
+      "code": "kl",
+      "endonym": "kalaallisut",
+      "sources": [
+        "cldr48-kl"
+      ]
+    },
+    {
+      "code": "kln",
+      "endonym": "Kalenjin",
+      "sources": [
+        "cldr48-kln"
+      ]
+    },
+    {
+      "code": "km",
+      "endonym": "ខ្មែរ",
+      "sources": [
+        "cldr48-km"
+      ]
+    },
+    {
+      "code": "kn",
+      "endonym": "ಕನ್ನಡ",
+      "sources": [
+        "cldr48-kn"
+      ]
+    },
+    {
+      "code": "ko",
+      "endonym": "한국어",
+      "sources": [
+        "cldr48-ko"
+      ]
+    },
+    {
+      "code": "kok",
+      "endonym": "कोंकणी",
+      "sources": [
+        "cldr48-kok"
+      ]
+    },
+    {
+      "code": "kpe",
+      "endonym": "Kpɛlɛɛ",
+      "sources": [
+        "cldr48-kpe"
+      ]
+    },
+    {
+      "code": "kr",
+      "endonym": "Kanuri",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ks",
+      "endonym": "کٲشُر",
+      "sources": [
+        "cldr48-ks"
+      ]
+    },
+    {
+      "code": "ksb",
+      "endonym": "Kishambaa",
+      "sources": [
+        "cldr48-ksb"
+      ]
+    },
+    {
+      "code": "ksf",
+      "endonym": "rikpa",
+      "sources": [
+        "cldr48-ksf"
+      ]
+    },
+    {
+      "code": "ksh",
+      "endonym": "Kölsch",
+      "sources": [
+        "cldr48-ksh"
+      ]
+    },
+    {
+      "code": "ku",
+      "endonym": "kurdî",
+      "sources": [
+        "wiktionary-ku"
+      ]
+    },
+    {
+      "code": "kv",
+      "endonym": "коми кыв",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "kw",
+      "endonym": "kernewek",
+      "sources": [
+        "cldr48-kw"
+      ]
+    },
+    {
+      "code": "kxv",
+      "endonym": "kuvi",
+      "sources": [
+        "cldr48-kxv"
+      ]
+    },
+    {
+      "code": "ky",
+      "endonym": "кыргызча",
+      "sources": [
+        "cldr48-ky"
+      ]
+    },
+    {
+      "code": "la",
+      "endonym": "Latīna",
+      "sources": [
+        "wiktionary-la"
+      ]
+    },
+    {
+      "code": "lag",
+      "endonym": "Kɨlaangi",
+      "sources": [
+        "cldr48-lag"
+      ]
+    },
+    {
+      "code": "lb",
+      "endonym": "Lëtzebuergesch",
+      "sources": [
+        "cldr48-lb"
+      ]
+    },
+    {
+      "code": "lg",
+      "endonym": "Luganda",
+      "sources": [
+        "cldr48-lg"
+      ]
+    },
+    {
+      "code": "li",
+      "endonym": "Limburgs",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "lij",
+      "endonym": "ligure",
+      "sources": [
+        "cldr48-lij"
+      ]
+    },
+    {
+      "code": "lkt",
+      "endonym": "Lakȟólʼiyapi",
+      "sources": [
+        "cldr48-lkt"
+      ]
+    },
+    {
+      "code": "lld",
+      "endonym": "ladin",
+      "sources": [
+        "cldr48-lld"
+      ]
+    },
+    {
+      "code": "lmo",
+      "endonym": "Lombard",
+      "sources": [
+        "cldr48-lmo"
+      ]
+    },
+    {
+      "code": "ln",
+      "endonym": "lingála",
+      "sources": [
+        "cldr48-ln"
+      ]
+    },
+    {
+      "code": "lo",
+      "endonym": "ລາວ",
+      "sources": [
+        "cldr48-lo"
+      ]
+    },
+    {
+      "code": "lrc",
+      "endonym": "لۊری شومالی",
+      "sources": [
+        "cldr48-lrc"
+      ]
+    },
+    {
+      "code": "lt",
+      "endonym": "lietùvių",
+      "sources": [
+        "wiktionary-lt"
+      ]
+    },
+    {
+      "code": "ltc",
+      "endonym": "中古漢語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ltg",
+      "endonym": "latgalīšu",
+      "sources": [
+        "cldr48-ltg"
+      ]
+    },
+    {
+      "code": "lu",
+      "endonym": "Tshiluba",
+      "sources": [
+        "cldr48-lu"
+      ]
+    },
+    {
+      "code": "luh",
+      "endonym": "雷州話",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "luo",
+      "endonym": "Dholuo",
+      "sources": [
+        "cldr48-luo"
+      ]
+    },
+    {
+      "code": "luy",
+      "endonym": "Luluhia",
+      "sources": [
+        "cldr48-luy"
+      ]
+    },
+    {
+      "code": "lv",
+      "endonym": "latviešu",
+      "sources": [
+        "cldr48-lv"
+      ]
+    },
+    {
+      "code": "lzh",
+      "endonym": "文言",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "mai",
+      "endonym": "मैथिली",
+      "sources": [
+        "cldr48-mai"
+      ]
+    },
+    {
+      "code": "mas",
+      "endonym": "Maa",
+      "sources": [
+        "cldr48-mas"
+      ]
+    },
+    {
+      "code": "mdf",
+      "endonym": "мокшень кяль",
+      "sources": [
+        "cldr48-mdf"
+      ]
+    },
+    {
+      "code": "mer",
+      "endonym": "Kĩmĩrũ",
+      "sources": [
+        "cldr48-mer"
+      ]
+    },
+    {
+      "code": "mfe",
+      "endonym": "kreol morisien",
+      "sources": [
+        "cldr48-mfe"
+      ]
+    },
+    {
+      "code": "mg",
+      "endonym": "Malagasy",
+      "sources": [
+        "cldr48-mg"
+      ]
+    },
+    {
+      "code": "mgh",
+      "endonym": "Makua",
+      "sources": [
+        "cldr48-mgh"
+      ]
+    },
+    {
+      "code": "mgo",
+      "endonym": "metaʼ",
+      "sources": [
+        "cldr48-mgo"
+      ]
+    },
+    {
+      "code": "mh",
+      "endonym": "Kajin M̧ajeļ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "mi",
+      "endonym": "Māori",
+      "sources": [
+        "cldr48-mi"
+      ]
+    },
+    {
+      "code": "mic",
+      "endonym": "Lʼnuiʼsuti",
+      "sources": [
+        "cldr48-mic"
+      ]
+    },
+    {
+      "code": "mk",
+      "endonym": "маке́донски",
+      "sources": [
+        "wiktionary-mk"
+      ]
+    },
+    {
+      "code": "ml",
+      "endonym": "മലയാളം",
+      "sources": [
+        "cldr48-ml"
+      ]
+    },
+    {
+      "code": "mn",
+      "endonym": "монгол",
+      "sources": [
+        "cldr48-mn"
+      ]
+    },
+    {
+      "code": "mni",
+      "endonym": "মৈতৈলোন্",
+      "sources": [
+        "cldr48-mni"
+      ]
+    },
+    {
+      "code": "mnp",
+      "endonym": "閩北語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "moh",
+      "endonym": "Kanienʼkéha",
+      "sources": [
+        "cldr48-moh"
+      ]
+    },
+    {
+      "code": "mr",
+      "endonym": "मराठी",
+      "sources": [
+        "cldr48-mr"
+      ]
+    },
+    {
+      "code": "ms",
+      "endonym": "Melayu",
+      "sources": [
+        "cldr48-ms"
+      ]
+    },
+    {
+      "code": "mt",
+      "endonym": "Malti",
+      "sources": [
+        "cldr48-mt"
+      ]
+    },
+    {
+      "code": "mua",
+      "endonym": "MUNDAŊ",
+      "sources": [
+        "cldr48-mua"
+      ]
+    },
+    {
+      "code": "mus",
+      "endonym": "Mvskoke",
+      "sources": [
+        "cldr48-mus"
+      ]
+    },
+    {
+      "code": "mvi",
+      "endonym": "宮古口",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "my",
+      "endonym": "မြန်မာ",
+      "sources": [
+        "cldr48-my"
+      ]
+    },
+    {
+      "code": "myv",
+      "endonym": "эрзянь кель",
+      "sources": [
+        "cldr48-myv"
+      ]
+    },
+    {
+      "code": "mzn",
+      "endonym": "مازرونی",
+      "sources": [
+        "cldr48-mzn"
+      ]
+    },
+    {
+      "code": "na",
+      "endonym": "dorerin Naoero",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "nan",
+      "endonym": "閩南語",
+      "sources": [
+        "cldr48-nan"
+      ]
+    },
+    {
+      "code": "naq",
+      "endonym": "Khoekhoegowab",
+      "sources": [
+        "cldr48-naq"
+      ]
+    },
+    {
+      "code": "nb",
+      "endonym": "norsk bokmål",
+      "sources": [
+        "cldr48-nb"
+      ]
+    },
+    {
+      "code": "nci",
+      "endonym": "nāhuatlahtōlli",
+      "sources": [
+        "wiktionary-nci"
+      ]
+    },
+    {
+      "code": "nd",
+      "endonym": "isiNdebele",
+      "sources": [
+        "cldr48-nd"
+      ]
+    },
+    {
+      "code": "nds",
+      "endonym": "Neddersass’sch",
+      "sources": [
+        "cldr48-nds"
+      ]
+    },
+    {
+      "code": "ne",
+      "endonym": "नेपाली",
+      "sources": [
+        "cldr48-ne"
+      ]
+    },
+    {
+      "code": "ng",
+      "endonym": "Oshindonga",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "niv",
+      "endonym": "Нивхгу диф",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "nl",
+      "endonym": "Nederlands",
+      "sources": [
+        "cldr48-nl"
+      ]
+    },
+    {
+      "code": "nmg",
+      "endonym": "Kwasio",
+      "sources": [
+        "cldr48-nmg"
+      ]
+    },
+    {
+      "code": "nn",
+      "endonym": "norsk nynorsk",
+      "sources": [
+        "cldr48-nn"
+      ]
+    },
+    {
+      "code": "nnh",
+      "endonym": "Shwóŋò ngiembɔɔn",
+      "sources": [
+        "cldr48-nnh"
+      ]
+    },
+    {
+      "code": "no",
+      "endonym": "norsk",
+      "sources": [
+        "cldr48-no"
+      ]
+    },
+    {
+      "code": "nqo",
+      "endonym": "ߒߞߏ",
+      "sources": [
+        "cldr48-nqo"
+      ]
+    },
+    {
+      "code": "nr",
+      "endonym": "isiNdebele",
+      "sources": [
+        "cldr48-nr"
+      ]
+    },
+    {
+      "code": "nso",
+      "endonym": "Sesotho sa Leboa",
+      "sources": [
+        "cldr48-nso"
+      ]
+    },
+    {
+      "code": "nus",
+      "endonym": "Thok Nath",
+      "sources": [
+        "cldr48-nus"
+      ]
+    },
+    {
+      "code": "nv",
+      "endonym": "Diné bizaad",
+      "sources": [
+        "cldr48-nv"
+      ]
+    },
+    {
+      "code": "ny",
+      "endonym": "Chicheŵá",
+      "sources": [
+        "wiktionary-ny"
+      ]
+    },
+    {
+      "code": "nyn",
+      "endonym": "Runyankore",
+      "sources": [
+        "cldr48-nyn"
+      ]
+    },
+    {
+      "code": "oc",
+      "endonym": "occitan",
+      "sources": [
+        "cldr48-oc"
+      ]
+    },
+    {
+      "code": "och",
+      "endonym": "上古漢語",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "oj",
+      "endonym": "ᐊᓂᔑᓈᐯᒧᐎᓐ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "oka",
+      "endonym": "n̓səl̓xcin̓",
+      "sources": [
+        "cldr48-oka"
+      ]
+    },
+    {
+      "code": "om",
+      "endonym": "Oromoo",
+      "sources": [
+        "cldr48-om"
+      ]
+    },
+    {
+      "code": "or",
+      "endonym": "ଓଡ଼ିଆ",
+      "sources": [
+        "cldr48-or"
+      ]
+    },
+    {
+      "code": "os",
+      "endonym": "ирон",
+      "sources": [
+        "cldr48-os"
+      ]
+    },
+    {
+      "code": "osa",
+      "endonym": "𐓏𐓘𐓻𐓘𐓻𐓟",
+      "sources": [
+        "cldr48-osa"
+      ]
+    },
+    {
+      "code": "pa",
+      "endonym": "ਪੰਜਾਬੀ",
+      "sources": [
+        "cldr48-pa"
+      ]
+    },
+    {
+      "code": "pal",
+      "endonym": "𐭯𐭠𐭫𐭮𐭩𐭪",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "pap",
+      "endonym": "Papiamentu",
+      "sources": [
+        "cldr48-pap"
+      ]
+    },
+    {
+      "code": "pcm",
+      "endonym": "Naijíriá Píjin",
+      "sources": [
+        "cldr48-pcm"
+      ]
+    },
+    {
+      "code": "peo",
+      "endonym": "𐎠𐎼𐎹",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "pi",
+      "endonym": "Pāḷi",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "pis",
+      "endonym": "Pijin",
+      "sources": [
+        "cldr48-pis"
+      ]
+    },
+    {
+      "code": "pl",
+      "endonym": "polski",
+      "sources": [
+        "cldr48-pl"
+      ]
+    },
+    {
+      "code": "pms",
+      "endonym": "piemontèis",
+      "sources": [
+        "cldr48-pms"
+      ]
+    },
+    {
+      "code": "ppl",
+      "endonym": "Nāwat",
+      "sources": [
+        "wiktionary-ppl"
+      ]
+    },
+    {
+      "code": "prg",
+      "endonym": "prūsiskan",
+      "sources": [
+        "cldr48-prg"
+      ]
+    },
+    {
+      "code": "ps",
+      "endonym": "پښتو",
+      "sources": [
+        "cldr48-ps"
+      ]
+    },
+    {
+      "code": "pt",
+      "endonym": "português",
+      "sources": [
+        "cldr48-pt"
+      ]
+    },
+    {
+      "code": "qu",
+      "endonym": "Runasimi",
+      "sources": [
+        "cldr48-qu"
+      ]
+    },
+    {
+      "code": "quc",
+      "endonym": "Kʼicheʼ",
+      "sources": [
+        "cldr48-quc"
+      ]
+    },
+    {
+      "code": "raj",
+      "endonym": "राजस्थानी",
+      "sources": [
+        "cldr48-raj"
+      ]
+    },
+    {
+      "code": "rhg",
+      "endonym": "𐴌𐴗𐴥𐴝𐴙𐴚𐴒𐴙𐴝",
+      "sources": [
+        "cldr48-rhg"
+      ]
+    },
+    {
+      "code": "rif",
+      "endonym": "Tarifit",
+      "sources": [
+        "cldr48-rif"
+      ]
+    },
+    {
+      "code": "rm",
+      "endonym": "rumantsch",
+      "sources": [
+        "cldr48-rm"
+      ]
+    },
+    {
+      "code": "rn",
+      "endonym": "Ikirundi",
+      "sources": [
+        "cldr48-rn"
+      ]
+    },
+    {
+      "code": "ro",
+      "endonym": "română",
+      "sources": [
+        "cldr48-ro"
+      ]
+    },
+    {
+      "code": "rof",
+      "endonym": "Kihorombo",
+      "sources": [
+        "cldr48-rof"
+      ]
+    },
+    {
+      "code": "ru",
+      "endonym": "ру́сский",
+      "sources": [
+        "wiktionary-ru"
+      ]
+    },
+    {
+      "code": "rw",
+      "endonym": "Ikinyarwanda",
+      "sources": [
+        "cldr48-rw"
+      ]
+    },
+    {
+      "code": "rwk",
+      "endonym": "Kiruwa",
+      "sources": [
+        "cldr48-rwk"
+      ]
+    },
+    {
+      "code": "rys",
+      "endonym": "八重山物言",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "ryu",
+      "endonym": "沖縄口",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "sa",
+      "endonym": "संस्कृत भाषा",
+      "sources": [
+        "cldr48-sa"
+      ]
+    },
+    {
+      "code": "sah",
+      "endonym": "саха тыла",
+      "sources": [
+        "cldr48-sah"
+      ]
+    },
+    {
+      "code": "sam",
+      "endonym": "ࠀࠓࠌࠉࠕ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "saq",
+      "endonym": "Kisampur",
+      "sources": [
+        "cldr48-saq"
+      ]
+    },
+    {
+      "code": "sat",
+      "endonym": "ᱥᱟᱱᱛᱟᱲᱤ",
+      "sources": [
+        "cldr48-sat"
+      ]
+    },
+    {
+      "code": "sbp",
+      "endonym": "Ishisangu",
+      "sources": [
+        "cldr48-sbp"
+      ]
+    },
+    {
+      "code": "sc",
+      "endonym": "sardu",
+      "sources": [
+        "cldr48-sc"
+      ]
+    },
+    {
+      "code": "scn",
+      "endonym": "sicilianu",
+      "sources": [
+        "cldr48-scn"
+      ]
+    },
+    {
+      "code": "sd",
+      "endonym": "سنڌي",
+      "sources": [
+        "cldr48-sd"
+      ]
+    },
+    {
+      "code": "sdh",
+      "endonym": "کوردی خوارگ",
+      "sources": [
+        "cldr48-sdh"
+      ]
+    },
+    {
+      "code": "se",
+      "endonym": "davvisámegiella",
+      "sources": [
+        "cldr48-se"
+      ]
+    },
+    {
+      "code": "seh",
+      "endonym": "sena",
+      "sources": [
+        "cldr48-seh"
+      ]
+    },
+    {
+      "code": "ses",
+      "endonym": "Koyraboro senni",
+      "sources": [
+        "cldr48-ses"
+      ]
+    },
+    {
+      "code": "sg",
+      "endonym": "Sängö",
+      "sources": [
+        "cldr48-sg"
+      ]
+    },
+    {
+      "code": "shi",
+      "endonym": "ⵜⴰⵛⵍⵃⵉⵜ",
+      "sources": [
+        "cldr48-shi"
+      ]
+    },
+    {
+      "code": "shn",
+      "endonym": "တႆး",
+      "sources": [
+        "cldr48-shn"
+      ]
+    },
+    {
+      "code": "si",
+      "endonym": "සිංහල",
+      "sources": [
+        "cldr48-si"
+      ]
+    },
+    {
+      "code": "sid",
+      "endonym": "Sidaamu Afo",
+      "sources": [
+        "cldr48-sid"
+      ]
+    },
+    {
+      "code": "sjc",
+      "endonym": "邵將話",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "sk",
+      "endonym": "slovenčina",
+      "sources": [
+        "cldr48-sk"
+      ]
+    },
+    {
+      "code": "skr",
+      "endonym": "سرائیکی",
+      "sources": [
+        "cldr48-skr"
+      ]
+    },
+    {
+      "code": "sl",
+      "endonym": "slovẹ́nščina",
+      "sources": [
+        "wiktionary-sl",
+        "cldr48-sl"
+      ]
+    },
+    {
+      "code": "sm",
+      "endonym": "Gagana Samoa",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "sma",
+      "endonym": "Åarjelsaemien gïele",
+      "sources": [
+        "cldr48-sma"
+      ]
+    },
+    {
+      "code": "smj",
+      "endonym": "julevsámegiella",
+      "sources": [
+        "cldr48-smj"
+      ]
+    },
+    {
+      "code": "smn",
+      "endonym": "anarâškielâ",
+      "sources": [
+        "cldr48-smn"
+      ]
+    },
+    {
+      "code": "smp",
+      "endonym": "ࠏࠁࠓࠉࠕ",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "sms",
+      "endonym": "sääʹmǩiõll",
+      "sources": [
+        "cldr48-sms"
+      ]
+    },
+    {
+      "code": "sn",
+      "endonym": "chiShona",
+      "sources": [
+        "cldr48-sn"
+      ]
+    },
+    {
+      "code": "so",
+      "endonym": "Soomaali",
+      "sources": [
+        "cldr48-so"
+      ]
+    },
+    {
+      "code": "sq",
+      "endonym": "shqip",
+      "sources": [
+        "cldr48-sq"
+      ]
+    },
+    {
+      "code": "sr",
+      "endonym": "ср̏пскӣ",
+      "sources": [
+        "wiktionary-sr",
+        "cldr48-sr"
+      ]
+    },
+    {
+      "code": "ss",
+      "endonym": "siSwati",
+      "sources": [
+        "cldr48-ss"
+      ]
+    },
+    {
+      "code": "ssy",
+      "endonym": "Saho",
+      "sources": [
+        "cldr48-ssy"
+      ]
+    },
+    {
+      "code": "st",
+      "endonym": "Sesotho",
+      "sources": [
+        "cldr48-st"
+      ]
+    },
+    {
+      "code": "su",
+      "endonym": "Basa Sunda",
+      "sources": [
+        "cldr48-su"
+      ]
+    },
+    {
+      "code": "sux",
+      "endonym": "𒅴𒂠",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "sv",
+      "endonym": "svenska",
+      "sources": [
+        "cldr48-sv"
+      ]
+    },
+    {
+      "code": "sw",
+      "endonym": "Kiswahili",
+      "sources": [
+        "cldr48-sw"
+      ]
+    },
+    {
+      "code": "syr",
+      "endonym": "ܣܘܪܝܝܐ",
+      "sources": [
+        "wiktionary-syr"
+      ]
+    },
+    {
+      "code": "szl",
+      "endonym": "ślōnski",
+      "sources": [
+        "cldr48-szl"
+      ]
+    },
+    {
+      "code": "ta",
+      "endonym": "தமிழ்",
+      "sources": [
+        "cldr48-ta"
+      ]
+    },
+    {
+      "code": "te",
+      "endonym": "తెలుగు",
+      "sources": [
+        "cldr48-te"
+      ]
+    },
+    {
+      "code": "teo",
+      "endonym": "Kiteso",
+      "sources": [
+        "cldr48-teo"
+      ]
+    },
+    {
+      "code": "tg",
+      "endonym": "тоҷикӣ",
+      "sources": [
+        "cldr48-tg"
+      ]
+    },
+    {
+      "code": "th",
+      "endonym": "ไทย",
+      "sources": [
+        "cldr48-th"
+      ]
+    },
+    {
+      "code": "ti",
+      "endonym": "ትግርኛ",
+      "sources": [
+        "cldr48-ti"
+      ]
+    },
+    {
+      "code": "tig",
+      "endonym": "ትግረ",
+      "sources": [
+        "cldr48-tig"
+      ]
+    },
+    {
+      "code": "tk",
+      "endonym": "türkmen dili",
+      "sources": [
+        "cldr48-tk"
+      ]
+    },
+    {
+      "code": "tl",
+      "endonym": "Tagalog",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "tn",
+      "endonym": "Setswana",
+      "sources": [
+        "cldr48-tn"
+      ]
+    },
+    {
+      "code": "to",
+      "endonym": "lea fakatonga",
+      "sources": [
+        "cldr48-to"
+      ]
+    },
+    {
+      "code": "tok",
+      "endonym": "toki pona",
+      "sources": [
+        "cldr48-tok"
+      ]
+    },
+    {
+      "code": "tpi",
+      "endonym": "Tok Pisin",
+      "sources": [
+        "cldr48-tpi"
+      ]
+    },
+    {
+      "code": "tr",
+      "endonym": "Türkçe",
+      "sources": [
+        "cldr48-tr"
+      ]
+    },
+    {
+      "code": "trv",
+      "endonym": "patas Taroko",
+      "sources": [
+        "cldr48-trv"
+      ]
+    },
+    {
+      "code": "trw",
+      "endonym": "توروالی",
+      "sources": [
+        "cldr48-trw"
+      ]
+    },
+    {
+      "code": "ts",
+      "endonym": "Xitsonga",
+      "sources": [
+        "cldr48-ts"
+      ]
+    },
+    {
+      "code": "tt",
+      "endonym": "татар",
+      "sources": [
+        "cldr48-tt"
+      ]
+    },
+    {
+      "code": "tw",
+      "endonym": "Twi",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "twq",
+      "endonym": "Tasawaq senni",
+      "sources": [
+        "cldr48-twq"
+      ]
+    },
+    {
+      "code": "ty",
+      "endonym": "Reo Tahiti",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "tyv",
+      "endonym": "Тыва",
+      "sources": [
+        "cldr48-tyv"
+      ]
+    },
+    {
+      "code": "tzm",
+      "endonym": "Tamaziɣt n laṭlaṣ",
+      "sources": [
+        "cldr48-tzm"
+      ]
+    },
+    {
+      "code": "ug",
+      "endonym": "ئۇيغۇرچە",
+      "sources": [
+        "cldr48-ug"
+      ]
+    },
+    {
+      "code": "uga",
+      "endonym": "𐎜𐎂𐎗𐎚",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "uk",
+      "endonym": "украї́нська",
+      "sources": [
+        "wiktionary-uk"
+      ]
+    },
+    {
+      "code": "ur",
+      "endonym": "اُرْدُو",
+      "sources": [
+        "wiktionary-ur"
+      ]
+    },
+    {
+      "code": "uz",
+      "endonym": "o‘zbek",
+      "sources": [
+        "cldr48-uz"
+      ]
+    },
+    {
+      "code": "vai",
+      "endonym": "ꕙꔤ",
+      "sources": [
+        "cldr48-vai"
+      ]
+    },
+    {
+      "code": "ve",
+      "endonym": "Tshivenḓa",
+      "sources": [
+        "cldr48-ve"
+      ]
+    },
+    {
+      "code": "vec",
+      "endonym": "veneto",
+      "sources": [
+        "cldr48-vec"
+      ]
+    },
+    {
+      "code": "vi",
+      "endonym": "Tiếng Việt",
+      "sources": [
+        "cldr48-vi"
+      ]
+    },
+    {
+      "code": "vmw",
+      "endonym": "emakhuwa",
+      "sources": [
+        "cldr48-vmw"
+      ]
+    },
+    {
+      "code": "vo",
+      "endonym": "Volapük",
+      "sources": [
+        "cldr48-vo"
+      ]
+    },
+    {
+      "code": "vun",
+      "endonym": "Kyivunjo",
+      "sources": [
+        "cldr48-vun"
+      ]
+    },
+    {
+      "code": "wa",
+      "endonym": "walon",
+      "sources": [
+        "cldr48-wa"
+      ]
+    },
+    {
+      "code": "wae",
+      "endonym": "Walser",
+      "sources": [
+        "cldr48-wae"
+      ]
+    },
+    {
+      "code": "wal",
+      "endonym": "ወላይታቱ",
+      "sources": [
+        "cldr48-wal"
+      ]
+    },
+    {
+      "code": "wbp",
+      "endonym": "Warlpiri",
+      "sources": [
+        "cldr48-wbp"
+      ]
+    },
+    {
+      "code": "wo",
+      "endonym": "Wolof",
+      "sources": [
+        "cldr48-wo"
+      ]
+    },
+    {
+      "code": "wuu",
+      "endonym": "吳語",
+      "sources": [
+        "cldr48-wuu"
+      ]
+    },
+    {
+      "code": "wxa",
+      "endonym": "瓦鄉話",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "xh",
+      "endonym": "IsiXhosa",
+      "sources": [
+        "cldr48-xh"
+      ]
+    },
+    {
+      "code": "xnr",
+      "endonym": "कांगड़ी",
+      "sources": [
+        "cldr48-xnr"
+      ]
+    },
+    {
+      "code": "xog",
+      "endonym": "Olusoga",
+      "sources": [
+        "cldr48-xog"
+      ]
+    },
+    {
+      "code": "xug",
+      "endonym": "山原言葉",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "yav",
+      "endonym": "nuasue",
+      "sources": [
+        "cldr48-yav"
+      ]
+    },
+    {
+      "code": "yi",
+      "endonym": "ייִדיש",
+      "sources": [
+        "cldr48-yi"
+      ]
+    },
+    {
+      "code": "yo",
+      "endonym": "Èdè Yorùbá",
+      "sources": [
+        "cldr48-yo"
+      ]
+    },
+    {
+      "code": "yoi",
+      "endonym": "与那国物言",
+      "sources": [
+        "legacy-table"
+      ]
+    },
+    {
+      "code": "yrl",
+      "endonym": "nheẽgatu",
+      "sources": [
+        "cldr48-yrl"
+      ]
+    },
+    {
+      "code": "yue",
+      "endonym": "粵語",
+      "sources": [
+        "cldr48-yue"
+      ]
+    },
+    {
+      "code": "za",
+      "endonym": "Vahcuengh",
+      "sources": [
+        "cldr48-za"
+      ]
+    },
+    {
+      "code": "zgh",
+      "endonym": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+      "sources": [
+        "cldr48-zgh"
+      ]
+    },
+    {
+      "code": "zh",
+      "endonym": "中文",
+      "sources": [
+        "cldr48-zh"
+      ]
+    },
+    {
+      "code": "zu",
+      "endonym": "isiZulu",
+      "sources": [
+        "cldr48-zu"
+      ]
+    }
+  ]
+}

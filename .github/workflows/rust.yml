@@ -21,6 +21,16 @@ jobs:
         with:
           components: clippy, rustfmt
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Check generated data
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          python3 scripts/generate.py --check
+
       - name: Check formatting
         run: cargo fmt --all --check
 
